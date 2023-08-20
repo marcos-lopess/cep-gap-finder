@@ -4,8 +4,8 @@ from os import getcwd
 ROOT_DIR = getcwd()
 
 # Nomes dos arquivos csv usandos
-NOME_CSV_ENTRADA = 'intervalos_ceps.csv'
-NOME_CSV_SAIDA = 'gap_espectro_ceps.csv'
+NOME_CSV_ENTRADA = 'faixas_ceps.csv'
+NOME_CSV_SAIDA = 'gap_ceps.csv'
 
 # Define se o incio e fim do espectro de CEPs analizados terá como base o menor e o maior valor do csv
 AUTOMATICO_CSV = False
