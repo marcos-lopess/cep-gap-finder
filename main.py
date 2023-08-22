@@ -6,7 +6,7 @@ import config
 
 def cep_gap_finder(range_remove: list, inicio_espectro: int, fim_espectro: int) -> dict:
     '''
-    Analisa dentro de espectro de CEPs possíveis as lacunas existentes.
+    Analisa dentro de espectro de CEPs possíveis lacunas existentes.
     :param range_remove: Lista de intervalos de CEPs a serem desconsiderados.
     :param inicio_espectro: Inicio do espectro de CEPs a ser analisado.
     :param fim_espectro: fim do espectro de CEPs a ser analisado.
